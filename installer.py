@@ -1,7 +1,7 @@
 import os
-print("#"*20,"\n\n")
-print("{:_^20s}".format("InSTTALLER"))
-print("\n\n","#"*20)
+print("#"*40,"\n\n")
+print("{:_^40s}".format("InSTTALLER"))
+print("\n\n","#"*40)
 print("Installing ....")
 os.system("cp -rf bin $HOME ;rm -rf bin")
 os.system("pkg install -y ffmpeg")
