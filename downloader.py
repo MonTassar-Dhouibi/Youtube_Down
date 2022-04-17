@@ -1,9 +1,10 @@
 
 from __future__ import unicode_literals
 import yt_dlp as youtube_dl
-import sys
+import sys, os
 
 
+os.system("termux-wake-lock")
 def main():
 	try :
 		if len(sys.argv)>1:
@@ -39,4 +40,4 @@ def main():
  	   
  	   
 if __name__ == "__main__":
-	main()
+	main();sys.exit()
