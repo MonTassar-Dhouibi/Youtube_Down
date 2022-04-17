@@ -1,3 +1,4 @@
 #!/bin/bash
 
+termux-wake-lock
 YDown $1
